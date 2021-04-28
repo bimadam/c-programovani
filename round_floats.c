@@ -14,19 +14,19 @@ void generate_items (float pole [])
 
 void show_items (float pole [])
 {
-    printf ("Zakladni pole:\n");
+    printf ("Pole s prvky s tremi desetinnymi misty:\n");
     for (int i = 0; i < 10; i++)
     {
-        printf ("pole v zakladnim tvaru [%d] = %.3f\n", i, pole [i]);
+        printf ("nezaokrouhleny prvek cislo %d = %.3f\n", i, pole [i]);
     }
 }
 
 void round_items (float pole [])
 {
-    printf ("Zaokrouhlene pole:\n");
+    printf ("Pole s prvky zaokrouhlenymi na desetiny:\n");
     for (int i = 0; i < 10; i++)
     {
-        printf ("zaokrouhlene pole [%d] = %.1f\n", i, round (pole [i]));
+        printf ("zaokrouhleny prvek cislo %d = %.1f\n", i, round (pole [i]));
     }
 }
 
