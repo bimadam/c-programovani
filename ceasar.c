@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void caesar_encrypt (char message[])
+void ceasar_encrypt (char message[])
 {
     char abc;
 	int i;
@@ -27,7 +27,7 @@ void caesar_encrypt (char message[])
 		}
 	}
 	
-	printf("Encrypted message: %s", message);
+	printf("Vas zasifrovany text: %s", message);
 	
 }
 int main()
@@ -37,6 +37,6 @@ int main()
 	int cislo;
 	char message [100];
 	
-	caesar_encrypt(message);
+	ceasar_encrypt(message);
 	return 0;
 }
